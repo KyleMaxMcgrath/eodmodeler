@@ -10,7 +10,7 @@
 
 "scripts": {
     "frontend": "cd frontend && npm start",
-    "backend": "cd backend && python server.py",
+    "backend": "python server.py",
     "start": "npm run backend && npm run frontend",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
 }
