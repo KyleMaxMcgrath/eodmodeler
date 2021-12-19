@@ -1,6 +1,17 @@
+{
+    "name": "eod-modeler",
+    "version": "0.1",
+    "description": "models end of day data",
+    "main": "index.js",
+    "engines": {
+        "node": "16.x",
+        "npm": "*"
+    },
+
 "scripts": {
     "frontend": "cd frontend && npm start",
     "backend": "cd backend && pip3 install requirements.txt && python server.py",
     "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\"",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
+}
 }
