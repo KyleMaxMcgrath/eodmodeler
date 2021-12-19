@@ -5,9 +5,7 @@
     "main": "index.js",
     "engines": {
         "node": "16.x",
-        "npm": "*",
-        "python": "3",
-        "pip3": ""
+        "npm": "*"
     },
 
 "scripts": {
